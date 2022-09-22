@@ -1,0 +1,26 @@
+*{
+    font-family: 'Lexend Deca';
+
+}
+body{
+    background-color: #15B2BF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.box1{
+    background-color: white;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 2%;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+h4{
+    color:#16919c;
+}

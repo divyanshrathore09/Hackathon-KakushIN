@@ -1,0 +1,117 @@
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Lexend Deca' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<app-headerback></app-headerback>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="sidebar">
+                <ul class="list-unstyled">
+                    <li><a routerLink="/agencypatientrequest">Patient Request</a></li>
+                    <li><a routerLink="/agencynursedetails">Nurses</a></li>
+                    <li><a routerLink="/agencyaddnurse">Add Nurse</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-10">
+            <div class="container">
+                <div class="box1">
+                    <div class="row">
+                        <div class="col-md-10">
+                            <div class="container">
+                                <h3 class="text-center mx-auto text-info mb-5">Add Nurse</h3>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <form>
+                                                <div class="form-group row">
+                                                    <div class="col-md-6">
+                                                        <label>Name :</label>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <input type="text" class="form-control" placeholder="Enter Name" >
+                                                    </div>
+                                                </div>
+                                                <div class="form-group row">
+                                                    <div class="col-md-6">
+                                                        <label>Mobile Number :</label>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <input type="tel" class="form-control" placeholder="Enter Mobile Number" >
+                                                    </div>
+                                                </div>     
+                                                <div class="form-group row">
+                                                    <div class="col-md-6">
+                                                        <label>Email :</label>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <input type="text" class="form-control" placeholder="Enter Email" >
+                                                    </div>
+                                                </div> 
+                                                <div class="form-group row">
+                                                    <div class="col-md-6">
+                                                        <label>Select Location :</label>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <select class="form-control">
+                                                            <option>Select Location</option>
+                                                            <option>Mumbai</option>
+                                                            <option>Indore</option>
+                                                        </select>
+                                                    </div>
+                                                </div> 
+                                                <div class="form-group row">
+                                                    <div class="col-md-6">
+                                                        <label>Total Experience :</label>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <input type="text" class="form-control" placeholder="Enter Experience" >
+                                                    </div>
+                                                </div> 
+                                                <div class="form-group row">
+                                                    <div class="col-md-6">
+                                                        <label>Speciality :</label>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <select class="form-control">
+                                                            <option>Select Speciality</option>
+                                                            <option>Gynecologist</option>
+                                                            <option>Psychologist</option>
+                                                            <option>Any</option>
+                                                        </select>
+                                                    </div>
+                                                </div> 
+                                                <div class="form-group row">
+                                                    <div class="col-md-6">
+                                                        <label>Identity Proof :</label>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="input-group">
+                                                            <div class="input-group-prepend">
+                                                              <span class="input-group-text" id="inputGroupFileAddon01">Identity Proof</span>
+                                                            </div>
+                                                            <div class="custom-file">
+                                                              <input type="file" class="custom-file-input" id="inputGroupFile01"
+                                                                aria-describedby="inputGroupFileAddon01">
+                                                              <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+                                                            </div>
+                                                          </div>
+                                                    </div>
+                                                </div> 
+                                                <div class="row my-4 mybtn text-center">
+                                                    <button type="submit" class="btn btn-primary text-light">
+                                                            Add Nurse</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<app-footer></app-footer>

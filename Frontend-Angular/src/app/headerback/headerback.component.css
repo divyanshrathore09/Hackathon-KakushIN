@@ -1,0 +1,12 @@
+*{
+    font-family: 'Lexend Deca';
+}
+
+nav{
+    background-color: #15B2BF;
+    padding: 20px;
+}
+h1{
+    color: white;
+    font-weight: bold;
+}

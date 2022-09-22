@@ -1,0 +1,39 @@
+*{
+    font-family: 'Lexend Deca';
+
+}
+body{
+    padding-bottom:5%;
+    padding-top:2%;
+
+}
+.sidebar{
+    background-color: #15B2BF;
+    margin-left: -15px;
+    padding: 40px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    height: 100%;
+}
+.sidebar ul li{
+    line-height: 30px;
+    padding: 10px;
+}
+.sidebar ul li a {
+    text-decoration: none;
+    color: white;
+}
+.sidebar ul li:hover{
+   background-color: black;
+}
+.checked {
+    color: orange;
+  }
+  .box1{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 40px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    border-radius: 10px;
+  }
+  

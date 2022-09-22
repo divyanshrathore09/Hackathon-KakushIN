@@ -1,0 +1,79 @@
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Lexend Deca' rel='stylesheet'>
+</head>
+
+<app-headerback></app-headerback>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="https://i.pinimg.com/564x/6d/07/7d/6d077db97efdcf8ceb0cde715bdf8e43.jpg" alt="">
+            </div>
+            <div class="col-md-6">
+                <div class="container">
+                    <div class="box1 pb-5">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <button type="submit" class="btn btn-dark"><a routerLink="/home">
+                                        << Back</a></button>
+                            </div>
+                            <div class="col-md-10">
+                                <h5 class="mx-auto mt-2 text-light text-center">New Customer</h5>
+                            </div>
+                        </div>
+                        <form [formGroup]="myForm"  class="mt-5">
+                            <div class="row my-4">
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control"  formControlName="username"
+                                        placeholder="Your name">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="number" class="form-control" formControlName="mobile"
+                                        placeholder="Mobile Number ">
+
+                                </div>
+                            </div>
+                            <div class="row my-2">
+                                <div class="col-md-6">
+                                    <input type="email" formControlName="email" class="form-control"
+                                        placeholder="Your Email">
+                                </div>
+                                <div class="col-md-6">
+                                    <select class="form-control" placeholder="Select City">
+                                        <option>Select City</option>
+                                        <option>Indore</option>
+                                        <option>Mumbai</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row my-4">
+                                <div class="col-md-6">
+                                    <input type="password" formControlName="pass" class="form-control"
+                                        placeholder="Enter Password">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="password" formControlName="copass" class="form-control"
+                                        placeholder="Confirm Password ">
+
+                                </div>
+                            </div>
+                            <div class="row my-4 mybtn">
+                                <button type="submit" class="btn btn-danger"><a>Submit</a></button>
+                            </div>
+                        </form>
+                        <div class="text-center">
+                            <p class="mx-auto"><a routerLink="#"> Already Have an account?</a></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+            </div>
+        </div>
+    </div>
+</body>
+<app-footer></app-footer>
